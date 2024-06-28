@@ -1,0 +1,20 @@
+.favorite {
+  h2 {
+    margin: 50px;
+  }
+  text-align: center;
+  padding: 10px 40px;
+  &-card {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    img {
+      width: 200px;
+      transition: all 0.5s;
+      &:hover {
+        scale: 1.2;
+        cursor: pointer;
+      }
+    }
+  }
+}
